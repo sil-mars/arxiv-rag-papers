@@ -33,7 +33,7 @@ python main.py
 # Run Gradio demo
 python main.py --demo
 
-# Run RAGAS evaluation (requires eval_results.json)
+# Run RAGAS evaluation (requires eval_results.json from running test queries)
 python eval.py
 ```
 
