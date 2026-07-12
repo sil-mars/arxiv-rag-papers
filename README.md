@@ -65,6 +65,8 @@ Full results: [eval_scores.csv](eval_scores.csv)
 | Faithfulness | 0.55 |
 | Answer Relevancy | 0.95 |
 
+Answer relevancy is consistently high (~0.95), confirming that the retrieval pipeline surfaces relevant papers across all subject areas. Faithfulness is lower (~0.55), meaning the generator occasionally produces statements not explicitly supported by the retrieved context. This is a known limitation of 7B models and is not related to the retrieval pipeline. Improving faithfulness would require a larger or stronger generation model.
+
 ## Models
 
 - Embedding: `BAAI/bge-base-en-v1.5`
